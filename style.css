@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+body{
+
+    background-image: url(https://images.unsplash.com/photo-1633675254386-dc5bb4279d56?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#card{
+    height: 280px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid rgb(53, 48, 196);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#stroriyan{
+    height:75px ;
+    width: 100%;
+    background-color: rgb(176, 182, 187);
+    border-bottom: 1px solid #555;
+    padding: 9px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+
+}
+#stroriyan::-webkit-scrollbar{
+     display: none;
+     
+}
+
+.story{
+    border: 2px solid rgb(237, 12, 12);
+    height: 60px;
+    border-radius: 50%;
+    width: 60px;
+    overflow:hidden ;
+    display: inline-block;
+    margin-right: 4px;
+
+
+
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
+#full-screen{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: none;
+
+}
+  
